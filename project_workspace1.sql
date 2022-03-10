@@ -1,4 +1,3 @@
-select * from employees;
 --1. Find the employees count in each position?
 
 select count(*)
