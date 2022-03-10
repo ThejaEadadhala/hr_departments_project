@@ -6,7 +6,7 @@ order by  agency desc;
 --2. List the employee names that work under "HEALTHCARE & FAMILY SERVICES" in descending order?
 select employee_name 
 from HR_DEPARTMENT
-where POSITION_TITLE='HEALTHCARE & FAMILY SERVICES'
+where agency='HEALTHCARE & FAMILY SERVICES'
 order by EMPLOYEE_NAME desc;
 
 --3. Find the employee count work under "HEALTHCARE & FAMILY SERVICES"?
